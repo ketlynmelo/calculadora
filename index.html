@@ -11,15 +11,20 @@
 
 
 <input type="number" id="n1">
-<input type="number" id="n2">
-<input type="">
 
+<select name="operacao" id="sinais">
 
-<div>
-<button onclick="calcular()">Resultado</button>
-</div>
+    <option value="soma">+</option>
+    <option value="sub">-</option>
+    <option value="div">/</option>
+    <option value="mult">x</option>
 
+</select>
 
+    <input type="number" id="n2">
+
+    <button onclick="calcular()">Resultado</button>
+    <p>Resultado: <span id="Resultado">0</span></p>
 
 </body>
 
