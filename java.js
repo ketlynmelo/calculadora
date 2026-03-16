@@ -7,6 +7,11 @@ function calcular(){
 
     let resultado;
 
+
+    if(n1 == "" || n2 == ""){
+        alert("Digite os dois números para o resultado!");
+    }
+
     if(sinal == "soma"){
 
         resultado = n1 + n2;
@@ -16,6 +21,9 @@ function calcular(){
         resultado = n1 - n2;
 
     } else if (sinal == "div") {
+        if(n2==0){
+            alert("Resultado inexistente");
+        }
 
         resultado = n1 / n2;
 
