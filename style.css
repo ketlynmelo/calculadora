@@ -1,3 +1,17 @@
 body{
     background-color: rgb(237, 198, 255);
 }
+.Calculadora{
+color: rgb(60, 14, 99);
+background-color: rgba(149, 75, 184, 0.568);
+border-radius: 15px;
+border: 2px solid  rgb(245, 190, 220);
+text-align: center;
+margin-right: 550px;
+margin-left: 550px;
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-bottom: 20px;
+padding-top: 20px;
+
+}
